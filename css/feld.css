@@ -18,7 +18,7 @@ body {
   float: right;
   max-width: 19%;
   border-left: 2px solid #8C8C8C;
-  margin-top: .5rem; }
+  margin-top: -2rem; }
 
 .main-content-wrapper {
   max-width: 80%;
@@ -30,7 +30,8 @@ body {
   display: inline-block; }
 
 a {
-  color: #000000; }
+  color: #000000;
+  display: block; }
   a:hover, a:active {
     color: #526D3D; }
 
@@ -59,5 +60,9 @@ a {
 
 .accordion-content {
   display: none; }
+
+.sidebar .menu {
+  padding-left: 2rem;
+  padding-top: 3rem; }
 
 /*# sourceMappingURL=feld.css.map */
