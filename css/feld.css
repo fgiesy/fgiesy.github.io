@@ -2,7 +2,7 @@
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px); }
 
-.body:after {
+body:after {
   content: "";
   display: table;
   clear: both; }
@@ -10,7 +10,7 @@
 html {
   font-size: 10px; }
 
-.body {
+body {
   max-width: 1000px;
   margin: 5rem auto; }
 

@@ -2,7 +2,7 @@ html {
   font-size: 10px;
 }
 
-.body {
+body {
   @extend %clearfix;
   max-width: 1000px;
   margin: 5rem auto;
