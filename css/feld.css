@@ -16,12 +16,21 @@ body {
 
 .sidebar {
   float: right;
-  max-width: 19%; }
+  max-width: 19%;
+  border-right: 2px solid #8C8C8C;
+  margin-top: .5rem; }
 
 .main-content-wrapper {
   max-width: 80%;
   float: left;
-  clear: left; }
+  clear: left;
+  font-size: 1.4rem; }
+
+.separator {
+  border-bottom: 2px solid #8C8C8C; }
+  .separator.long {
+    width: 100%;
+    max-width: 90%; }
 
 .logo-wrapper {
   max-width: 80%;

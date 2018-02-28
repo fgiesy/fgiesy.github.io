@@ -11,10 +11,13 @@ body {
 .sidebar {
   float: right;
   max-width: 19%;
+  border-right: 2px solid $grey-medium;
+  margin-top: .5rem;
 }
 
 .main-content-wrapper {
   max-width: 80%;
   float: left;
   clear: left;
+  font-size: 1.4rem;
 }

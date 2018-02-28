@@ -1,0 +1,9 @@
+.separator {
+  border-bottom: 2px solid $grey-medium;
+
+  &.long {
+    width: 100%;
+    max-width: 90%;
+  }
+
+}
