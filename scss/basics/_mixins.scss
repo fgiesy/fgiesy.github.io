@@ -1,0 +1,21 @@
+.hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+@mixin tablet {
+  @media (min-width: $tabletWidth) { @content; }
+}
+
+@mixin tabletLandscape {
+  @media (min-width: $tabletLandscapeWidth) { @content; }
+}
+
+@mixin desktop {
+  @media (min-width: $desktopWidth) { @content; }
+}
+
+@mixin desktopWide {
+  @media (min-width: $desktopWideWidth) { @content; }
+}
