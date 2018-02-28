@@ -3,6 +3,15 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+%clearfix {
+  
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
 
 @mixin tablet {
   @media (min-width: $tabletWidth) { @content; }

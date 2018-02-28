@@ -1,3 +1,14 @@
+html {
+  font-size: 10px;
+}
+
+.body {
+  @extend %clearfix;
+
+  max-width: 1000px;
+  margin: 5rem auto;
+}
+
 .sidebar {
   float: right;
   max-width: 19%;

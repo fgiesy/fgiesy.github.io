@@ -1,3 +1,10 @@
+html {
+  font-size: 10px; }
+
+.body {
+  max-width: 1000px;
+  margin: 5rem auto; }
+
 .sidebar {
   float: right;
   max-width: 19%; }
@@ -11,8 +18,16 @@
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px); }
 
+.body:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .logo-wrapper {
   max-width: 80%;
   float: left; }
+
+.logo {
+  font-size: 7.5rem; }
 
 /*# sourceMappingURL=feld.css.map */
