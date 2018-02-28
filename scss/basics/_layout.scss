@@ -11,7 +11,7 @@ body {
 .sidebar {
   float: right;
   max-width: 19%;
-  border-right: 2px solid $grey-medium;
+  border-left: 2px solid $grey-medium;
   margin-top: .5rem;
 }
 
@@ -20,4 +20,8 @@ body {
   float: left;
   clear: left;
   font-size: 1.4rem;
+}
+
+.inline {
+  display: inline-block;
 }
