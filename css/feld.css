@@ -29,16 +29,35 @@ body {
 .inline {
   display: inline-block; }
 
+a {
+  color: #000000; }
+  a:hover, a:active {
+    color: #526D3D; }
+
+.sidebar a {
+  font-size: 1.6rem;
+  line-height: 2; }
+
 .separator {
   border-bottom: 2px solid #8C8C8C; }
   .separator.long {
     width: 100%;
-    max-width: 90%; }
+    max-width: 86%; }
+
+.sidebar ul {
+  list-style-type: none; }
 
 .logo-wrapper {
   max-width: 80%; }
 
 .logo {
   font-size: 7.5rem; }
+
+.accordion-trigger {
+  text-decoration: underline;
+  cursor: pointer; }
+
+.accordion-content {
+  display: none; }
 
 /*# sourceMappingURL=feld.css.map */

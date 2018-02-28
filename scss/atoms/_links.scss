@@ -1,0 +1,16 @@
+a {
+  color: $black;
+
+  &:hover, &:active {
+    color: $accent;
+  }
+}
+
+.sidebar {
+
+  a {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+}
