@@ -1,11 +1,11 @@
-$(document).ready(function($) {
-  $('.main-content').find('.accordion-trigger').click(function(){
+jQuery(document).ready(function($) {
+  jQuery('.main-content').find('.accordion-trigger').click(function(){
 
     //Expand or collapse this panel
-    $(this).next().slideToggle('fast');
+    jQuery(this).next().slideToggle('fast');
 
     //Hide the other panels
-    $(".accordion-content").not($(this).next()).slideUp('fast');
+    jQuery(".accordion-content").not($(this).next()).slideUp('fast');
 
   });
 });
