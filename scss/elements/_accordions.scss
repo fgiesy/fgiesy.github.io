@@ -6,4 +6,9 @@
 
 .accordion-content {
   display: none;
+
+  &.default {
+    display: block;
+  }
+  
 }

@@ -71,6 +71,8 @@ a {
 
 .accordion-content {
   display: none; }
+  .accordion-content.default {
+    display: block; }
 
 .sidebar .menu {
   padding-left: 2rem;
