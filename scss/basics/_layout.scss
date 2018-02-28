@@ -13,6 +13,7 @@ body {
   max-width: 19%;
   border-left: 2px solid $grey-medium;
   margin-top: -2rem;
+  padding-bottom: 2rem;
 }
 
 .main-content-wrapper {
@@ -20,6 +21,14 @@ body {
   float: left;
   clear: left;
   font-size: 1.4rem;
+}
+
+.main-content {
+  padding-top: 1.5rem;
+}
+
+.section {
+  margin-bottom: 5rem;
 }
 
 .inline {

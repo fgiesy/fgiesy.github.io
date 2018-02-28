@@ -18,7 +18,8 @@ body {
   float: right;
   max-width: 19%;
   border-left: 2px solid #8C8C8C;
-  margin-top: -2rem; }
+  margin-top: -2rem;
+  padding-bottom: 2rem; }
 
 .main-content-wrapper {
   max-width: 80%;
@@ -26,8 +27,17 @@ body {
   clear: left;
   font-size: 1.4rem; }
 
+.main-content {
+  padding-top: 1.5rem; }
+
+.section {
+  margin-bottom: 5rem; }
+
 .inline {
   display: inline-block; }
+
+h2 {
+  margin: 0; }
 
 a {
   color: #000000;
