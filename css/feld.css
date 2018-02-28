@@ -1,5 +1,18 @@
+.sidebar {
+  float: right;
+  max-width: 19%; }
+
+.main-content-wrapper {
+  max-width: 80%;
+  float: left;
+  clear: left; }
+
 .hidden {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px); }
+
+.logo-wrapper {
+  max-width: 80%;
+  float: left; }
 
 /*# sourceMappingURL=feld.css.map */
