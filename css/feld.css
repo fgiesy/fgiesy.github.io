@@ -70,9 +70,14 @@ a {
   font-size: 1.8rem; }
 
 .accordion-content {
-  display: none; }
-  .accordion-content.default {
-    display: block; }
+  max-height: 0;
+  transition: max-height 0.3s cubic-bezier(0, 1, 0, 1); }
+  .accordion-content.accordion-expanded {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    max-height: 9999px;
+    transition: max-height 0.3s cubic-bezier(1, 0, 1, 0); }
 
 .sidebar .menu {
   padding-left: 2rem;
