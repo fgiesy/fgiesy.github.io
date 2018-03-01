@@ -13,6 +13,10 @@
 
 }
 
+%zeroMargin {
+  margin: 0 0 1rem 0;
+}
+
 @mixin tablet {
   @media (min-width: $tabletWidth) { @content; }
 }

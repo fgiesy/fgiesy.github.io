@@ -7,6 +7,9 @@ body:after {
   display: table;
   clear: both; }
 
+h2, h3 {
+  margin: 0 0 1rem 0; }
+
 html {
   font-size: 10px; }
 
@@ -35,9 +38,6 @@ body {
 
 .inline {
   display: inline-block; }
-
-h2 {
-  margin: 0; }
 
 a {
   color: #000000;
