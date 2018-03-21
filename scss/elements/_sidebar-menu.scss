@@ -14,15 +14,19 @@
   
 }
 
-.resume-link
-.portfolio-link {
+.resume-or,
+.resume-download {
+  display: none !important;
+
+  @include tabletLandscape {
+    display: inline-block !important;
+  }
+  
 }
 
 .skills-link,
 .tools-link,
-.about-link,
-.resume-or,
-.resume-download {
+.about-link {
   display: none !important;
 
   @include tabletLandscape {
