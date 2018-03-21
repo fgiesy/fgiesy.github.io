@@ -80,6 +80,16 @@ a {
     max-height: 9999px;
     transition: max-height 0.3s cubic-bezier(1, 0, 1, 0); }
 
+.job {
+  margin-bottom: 2rem; }
+
+.job-title {
+  font-weight: bold; }
+
+.job-accomplishment {
+  text-decoration: underline;
+  font-weight: bold; }
+
 .sidebar .menu {
   padding-left: 2rem;
   padding-top: 7rem; }
