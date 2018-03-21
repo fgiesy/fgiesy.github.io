@@ -1,7 +1,19 @@
 h2 {
   @extend %zeroMargin;
+  font-size: 2rem;
+
+  @include tabletLandscape {
+    font-size: 2.4rem;
+  }
+
 }
 
 h3 {
   @extend %zeroMargin;
+  font-size: 1.8rem;
+
+  @include tabletLandscape {
+    font-size: 2rem;
+  }
+  
 }

@@ -5,12 +5,13 @@ html {
 body {
   @extend %clearfix;
   max-width: 1000px;
-  margin: 5rem auto;
+  margin: 0 auto;
   position: relative;
   padding: 0 2rem;
 
   @include tabletLandscape {
     padding: 0;
+    margin: 5rem auto;
   }
 
 }
@@ -42,10 +43,14 @@ body {
 }
 
 .main-content-wrapper {
-  max-width: 80%;
   float: left;
   clear: left;
   font-size: 1.6rem;
+
+  @include tabletLandscape {
+    max-width: 80%;
+  }
+
 }
 
 .main-content {
