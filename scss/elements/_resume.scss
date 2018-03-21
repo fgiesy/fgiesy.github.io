@@ -3,8 +3,13 @@
 }
 
 .resume-actual {
-  padding: 3rem;
+  padding: 3rem 0;
   margin-bottom: 2rem;
+
+  @include tabletLandscape {
+    padding: 3rem;
+  }
+  
 }
 
 .resume-header {

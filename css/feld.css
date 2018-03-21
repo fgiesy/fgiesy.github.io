@@ -116,8 +116,11 @@ a {
   position: relative; }
 
 .resume-actual {
-  padding: 3rem;
+  padding: 3rem 0;
   margin-bottom: 2rem; }
+  @media (min-width: 990px) {
+    .resume-actual {
+      padding: 3rem; } }
 
 .resume-header {
   margin-bottom: 3rem; }
@@ -136,5 +139,15 @@ a {
 .sidebar .menu {
   padding-left: 2rem;
   padding-top: 7rem; }
+
+.skills-link,
+.tools-link,
+.about-link {
+  display: none; }
+  @media (min-width: 990px) {
+    .skills-link,
+    .tools-link,
+    .about-link {
+      display: block; } }
 
 /*# sourceMappingURL=feld.css.map */

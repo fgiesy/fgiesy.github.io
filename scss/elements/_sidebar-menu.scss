@@ -6,3 +6,26 @@
   }
   
 }
+
+.resume-link {
+
+}
+
+.resume-or {
+
+}
+
+.resume-download {
+
+}
+
+.skills-link,
+.tools-link,
+.about-link {
+  display: none;
+
+  @include tabletLandscape {
+    display: block;
+  }
+  
+}
