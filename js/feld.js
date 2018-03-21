@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
     $(this).parent().siblings('.accordion-content').addClass('accordion-expanded');
 
     //Hide the other panels
-   
+    $(!this).parent().siblings('.accordion-content').removeClass('accordion-expanded');
 
   });
 });
