@@ -2,21 +2,20 @@
 
   .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
     @include tabletLandscape {
+      display: block;
       padding-left: 2rem;
       padding-top: 7rem;
     }
-    
+
   }
   
 }
 
 .resume-link
 .portfolio-link {
-  display: inline-block; 
-  width: 50%;
 }
 
 .skills-link,
