@@ -1,27 +1,29 @@
 .sidebar {
 
   .menu {
-    padding-left: 2rem;
-    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+
+    @include tabletLandscape {
+      padding-left: 2rem;
+      padding-top: 7rem;
+    }
+    
   }
   
 }
 
-.resume-link {
-
-}
-
-.resume-or {
-
-}
-
-.resume-download {
-
+.resume-link
+.portfolio-link {
+  display: inline-block; 
+  width: 50%;
 }
 
 .skills-link,
 .tools-link,
-.about-link {
+.about-link,
+.resume-or,
+.resume-download {
   display: none !important;
 
   @include tabletLandscape {

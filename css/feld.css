@@ -139,17 +139,30 @@ a {
   right: 0; }
 
 .sidebar .menu {
-  padding-left: 2rem;
-  padding-top: 7rem; }
+  display: flex;
+  justify-content: center; }
+  @media (min-width: 990px) {
+    .sidebar .menu {
+      padding-left: 2rem;
+      padding-top: 7rem; } }
+
+.resume-link
+.portfolio-link {
+  display: inline-block;
+  width: 50%; }
 
 .skills-link,
 .tools-link,
-.about-link {
+.about-link,
+.resume-or,
+.resume-download {
   display: none !important; }
   @media (min-width: 990px) {
     .skills-link,
     .tools-link,
-    .about-link {
+    .about-link,
+    .resume-or,
+    .resume-download {
       display: block !important; } }
 
 /*# sourceMappingURL=feld.css.map */
