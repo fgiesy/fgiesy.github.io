@@ -7,6 +7,16 @@ body:after {
   display: table;
   clear: both; }
 
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #000000;
+  font-size: 14px; }
+  button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
 h2, h3 {
   margin: 0 0 1rem 0; }
 
@@ -94,7 +104,11 @@ a {
   position: relative; }
 
 .resume-actual {
-  padding: 3rem; }
+  padding: 3rem;
+  margin-bottom: 2rem; }
+
+.resume-header {
+  margin-bottom: 2rem; }
 
 .resume-title {
   font-size: 2.6rem; }

@@ -1,0 +1,12 @@
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 1.4rem;
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+  
+}
