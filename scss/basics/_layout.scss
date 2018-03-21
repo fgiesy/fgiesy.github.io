@@ -22,7 +22,7 @@ body {
   left: 0;
   right: 0;
   box-sizing: border-box;
-  border: 1px solid $grey-dark;
+  border-top: 3px solid $grey-dark;
   background-color: $white;
   padding: 2rem;
 
@@ -31,8 +31,6 @@ body {
     float: right;
     max-width: 19%;
     border-left: 2px solid $grey-medium;
-    border-right: none;
-    border-bottom: none;
     border-top: none;
     margin-top: -2rem;
     padding-bottom: 2rem;
