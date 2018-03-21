@@ -56,7 +56,11 @@ body {
 }
 
 .main-content {
-  padding-top: 5rem;
+  
+  @include tabletLandscape {
+    padding-top: 5rem;
+  }
+  
 }
 
 .section {

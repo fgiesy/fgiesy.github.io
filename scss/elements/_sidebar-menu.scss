@@ -21,7 +21,7 @@
   @include tabletLandscape {
     display: inline-block !important;
   }
-  
+
 }
 
 .skills-link,
@@ -33,4 +33,14 @@
     display: block !important;
   }
 
+}
+
+.home-link {
+  display: inline !important;
+
+  @include tabletLandscape {
+    display: inline-block !important;
+    width: 100%;
+  }
+  
 }
