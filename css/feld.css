@@ -7,16 +7,6 @@ body:after {
   display: table;
   clear: both; }
 
-button {
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid #000000;
-  font-size: 14px; }
-  button:hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
-
 h2, h3 {
   margin: 0 0 1rem 0; }
 
@@ -25,14 +15,27 @@ html {
 
 body {
   max-width: 1000px;
-  margin: 5rem auto; }
+  margin: 5rem auto;
+  position: relative;
+  padding: 0 2rem; }
+  @media (min-width: 990px) {
+    body {
+      padding: 0; } }
 
 .sidebar {
-  float: right;
-  max-width: 19%;
-  border-left: 2px solid #8C8C8C;
-  margin-top: -2rem;
-  padding-bottom: 2rem; }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box; }
+  @media (min-width: 990px) {
+    .sidebar {
+      float: right;
+      max-width: 19%;
+      border-left: 2px solid #8C8C8C;
+      margin-top: -2rem;
+      padding-bottom: 2rem; } }
 
 .main-content-wrapper {
   max-width: 80%;
@@ -48,6 +51,15 @@ body {
 
 .inline {
   display: inline-block; }
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 1.4rem; }
+  button:hover {
+    background-color: #000000;
+    color: #FFFFFF; }
 
 a {
   color: #000000;
@@ -108,7 +120,7 @@ a {
   margin-bottom: 2rem; }
 
 .resume-header {
-  margin-bottom: 2rem; }
+  margin-bottom: 3rem; }
 
 .resume-title {
   font-size: 2.6rem; }

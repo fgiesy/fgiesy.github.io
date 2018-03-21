@@ -17,6 +17,11 @@
   margin: 0 0 1rem 0;
 }
 
+$tabletWidth: 720px;
+$tabletLandscapeWidth: 990px;
+$desktopWidth: 1200px;
+$desktopWideWidth: 1400px;
+
 @mixin tablet {
   @media (min-width: $tabletWidth) { @content; }
 }

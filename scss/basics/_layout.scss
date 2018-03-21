@@ -6,14 +6,31 @@ body {
   @extend %clearfix;
   max-width: 1000px;
   margin: 5rem auto;
+  position: relative;
+  padding: 0 2rem;
+
+  @include tabletLandscape {
+    padding: 0;
+  }
+  
 }
 
 .sidebar {
-  float: right;
-  max-width: 19%;
-  border-left: 2px solid $grey-medium;
-  margin-top: -2rem;
-  padding-bottom: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+
+  @include tabletLandscape {
+    float: right;
+    max-width: 19%;
+    border-left: 2px solid $grey-medium;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+  }
+
 }
 
 .main-content-wrapper {
