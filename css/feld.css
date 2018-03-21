@@ -49,10 +49,12 @@ body {
 .main-content-wrapper {
   float: left;
   clear: left;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  padding-bottom: 10rem; }
   @media (min-width: 990px) {
     .main-content-wrapper {
-      max-width: 80%; } }
+      max-width: 80%;
+      padding-bottom: 0; } }
 
 .main-content {
   padding-top: 5rem; }

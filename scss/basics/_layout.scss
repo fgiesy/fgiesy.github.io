@@ -46,9 +46,11 @@ body {
   float: left;
   clear: left;
   font-size: 1.6rem;
+  padding-bottom: 10rem;
 
   @include tabletLandscape {
     max-width: 80%;
+    padding-bottom: 0;
   }
 
 }
