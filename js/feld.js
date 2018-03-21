@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
   
   //hiding resume
   jQuery('.hide-resume').click(function(){
-    $(this).parent('.accordion-content').removeClass('accordion-expanded');
+    $('.resume-accordion').removeClass('accordion-expanded');
   });
 
 });
