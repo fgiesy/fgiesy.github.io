@@ -145,11 +145,11 @@ a {
 .skills-link,
 .tools-link,
 .about-link {
-  display: none; }
+  display: none !important; }
   @media (min-width: 990px) {
     .skills-link,
     .tools-link,
     .about-link {
-      display: block; } }
+      display: block !important; } }
 
 /*# sourceMappingURL=feld.css.map */

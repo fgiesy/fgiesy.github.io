@@ -22,10 +22,10 @@
 .skills-link,
 .tools-link,
 .about-link {
-  display: none;
+  display: none !important;
 
   @include tabletLandscape {
-    display: block;
+    display: block !important;
   }
-  
+
 }
